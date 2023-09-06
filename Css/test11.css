@@ -1,0 +1,1027 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Moul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@300&family=Moul&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    background-color: black;
+}
+.header .box-header {
+    width: 70%;
+    height: 120px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 10%;
+    height: 120px;
+    background-color: rgb(0, 0, 0);
+}
+.icon img{
+    width: 10%px;
+    height: 120px;
+    object-fit: cover;
+}
+.ads{
+    width: 70%;
+    height: 100%;
+    background-color: aqua;
+}
+.ads img{
+    width: 100%;
+    height: 100%;
+}
+.box-navbar{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 0, 0);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.box-navbar .navbar{
+    width: 75%;
+    height: 100%;
+    margin: auto;
+}
+.box-navbar .navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.box-navbar .navbar ul li{
+    padding: 15px 20px;
+    opacity: 0.7;
+}
+.box-navbar .navbar ul li:hover{
+    opacity: 1;
+}
+.box-navbar .navbar ul li a{
+    text-decoration: none;
+    font-family: "koulen";
+    font-size: 20px;
+    color: white;
+}
+.main-conten{
+    width: 75%;
+    height: 600px;
+    /* background-color: brown; */
+    margin: 20px auto;
+    display: flex;
+    
+}
+.main-conten .content-box{
+    width: 75%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main-conten .content-box .box1:nth-child(odd){
+    width: 59%;
+    height: 49%;
+    position: relative;
+    background-color: blue;
+}
+.main-conten .content-box .box1:nth-child(even){
+    width: 39%;
+    height: 49%;
+    background-color: aqua;
+    position: relative;
+}
+.main-conten .content-box .box1 img{
+    height: 100%;
+    width: 100%;
+}
+.main-conten .content-box .box1:hover .text{
+    top: 40%;
+    height: 125px;
+    position: absolute;
+
+}
+.main-conten .content-box .box1:hover h3{
+    color: red;
+}
+.box-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
+    position: absolute; 
+    top: 0;
+}
+.date {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-family: "koulen";
+    padding-left: 10px;
+    color: white;
+}
+.text{
+    width: 100%;
+    height: 63px;
+    overflow: hidden;
+    font-family: "koulen";
+    padding: 0 10px;
+    position: absolute;
+    top: 70%;
+    z-index: 1;
+    transition: 0.5s;
+    color: white;
+    
+}
+.text p{
+    font-size: 12px;
+    font-family: "koulen";
+}
+.main-conten .adsbox{
+    width: 24%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-conten .adsbox .adsbox1{
+    width: 100%;
+    height: 48%;
+    background-color: chartreuse;
+   
+}
+.main-conten .adsbox .adsbox1 img{
+    height: 100%;
+    width: 100%;
+}
+.box2{
+    width: 80%;
+    height: 30px;
+    border:5px solid red;
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    position: relative;
+    border-top: none;
+    border-right: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box2 .box2-1{
+    top: 0;
+    width: 5%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+
+}
+.box2 .box2-2{
+    width: 5%;
+    height: 100%;
+    /* border-top: 20px solid brown; */
+    /* border-left: 20px solid green ; */
+    border-bottom: 30px solid red;
+    border-right: 30px solid transparent;
+    left: 5%;
+    top: 0%;
+    position: absolute;
+}
+.box2 .box2-1 p{
+    
+    font-size: 15px;
+    font-family: "koulen";
+    position: absolute;
+    top: 5px;
+    margin: auto;
+    margin-left: 20px;
+    color: white;
+}
+.box2 .box2-1 i{
+    color: white;
+    position: absolute;
+    right: 2%;
+    top: 30%;
+    margin-top: 2px;
+}
+.boxmain{
+    width: 80%;
+    height: 900px;
+    /* border: 5px solid black; */
+    margin: auto ;
+    margin-top: 1px;
+    position: relative;
+    box-shadow: 1px 1px 5px gray;
+
+
+}
+.boxmain .boxcenter1{
+    width: 100%;
+    height: 40%;
+    /* border: 3px solid red; */
+    top:0;
+   position: absolute;
+   display: flex;
+   justify-content: space-between;
+  
+}
+.boxmain .boxcenter2{
+    width: 100%;
+    height: 60%;
+    /* border: 3px solid blue; */
+   position: absolute;
+   bottom: 0;
+   display: flex;
+}
+.boxmain .boxcenter1 .boxcenter1-1{
+   width: 80%;
+    height: 100%;
+    border: 3px solid transparent;
+}
+.boxmain .boxcenter2 .boxcenter2-1{
+    width: 80%;
+    height: 100%;
+    /* border: 3px solid rgb(255, 0, 170); */
+}
+.boxmain .boxcenter2 .boxcenter2-3{
+    width: 20%;
+    height: 100%;
+    border: 3px solid transparent;
+}
+.boxmain .boxcenter2 .boxcenter2-2{
+    width: 100%;
+    height: 50%;
+    /* border: 3px solid rgb(255, 174, 0); */
+    display: flex;
+}
+.boxmain .boxcenter2 .boxcenter2-2 .boxcenter2-4{
+    width: 100%;
+    height: 100%;
+    border: 3px solid transparent;
+}
+.boxmain .boxcenter1 .boxcenter1-1 img{
+    width: 100%;
+    height: 75%;
+}
+.boxmain .boxcenter1 .boxcenter1-1:hover img{
+    width: 100%;
+    height: 75%;
+    transform: scale(0.98);
+    transition: 2s;
+}
+.boxmain .boxcenter1 .boxcenter1-1 p{
+    font-family: koulen;
+
+}
+.boxmain .boxcenter2 .boxcenter2-2 .boxcenter2-4 img{
+    width: 100%;
+    height: 75%;
+}
+.boxmain .boxcenter2 .boxcenter2-2 .boxcenter2-4:hover img{
+    width: 100%;
+    height: 75%;
+    transform: scale(0.98);
+    transition: 2s;
+}
+.boxmain .boxcenter2 .boxcenter2-2 .boxcenter2-4 p{
+    font-family: koulen;
+}
+.boxmain .boxcenter2 .boxcenter2-3 img{
+    width: 100%;
+}
+.box3{
+    width: 80%;
+    height: 30px;
+    border: 10px solid palevioletred;
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: -1%;
+    position: relative;
+    border-top: none;
+    border-right: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box3 .box3-1{
+    top: 0;
+    width: 7%;
+    height: 100%;
+    background-color: palevioletred;
+    position: absolute;
+}
+.box3 .box3-2{
+    width: 5%;
+    height: 100%;
+    /* border-top: 20px solid brown; */
+    /* border-left: 20px solid green ; */
+    border-bottom: 30px solid palevioletred ;
+    border-right: 30px solid transparent;
+    left: 5%;
+    top: 0%;
+    position: absolute;
+}
+.box3 .box3-1 p{
+    font-size: 15px;
+    font-family: "koulen";
+    position: absolute;
+    top: 5px;
+    margin: auto;
+    margin-left: 20px;
+    color: white;
+}
+.box3 .box3-2 i{
+    color:white;
+    position: absolute;   
+    top: 60%;
+    right: 10%;
+    margin-top: 10px;
+}
+.boxmain2{
+    width: 80%;
+    height: 500px;
+    /* border: 5px solid black; */
+    box-shadow: 1px 1px 5px gray;
+    margin: auto ;
+    margin-top: 1%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+.boxmain2 .boxcenter3-4{
+    width: 100%;
+    height: 100%;
+    /* border: 4px solid rgb(214, 211, 0); */
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+.boxmain2 .boxcenter3-4 .boxcenter3-1{
+    width:31% ;
+    height: 100%;
+    /* border: 5px solid rgb(108, 175, 20); */
+}
+.boxmain2 .boxcenter3-4 .boxcenter3-2{
+    width:68% ;
+    height: 100%;
+    /* border: 5px solid rgb(141, 27, 27); */
+}
+.boxmain2 .boxcenter3-4 .boxcenter3-1 .boxcenter3-11{
+    width: 100%;
+    height: 80%;
+    /* border: 5px solid burlywood; */
+}
+.boxmain2 .boxcenter3-4 .boxcenter3-1 .boxcenter3-12{
+    width: 100%;
+    height: 20%;
+   background-color: palevioletred;
+}
+.boxmain2 .boxcenter3-4 .boxcenter3-1 .boxcenter3-12 p{
+    color: white;
+    font-family: koulen;
+    font-size: 20px;
+    padding: 10px;
+}
+.boxmain2 .boxcenter3-4 .boxcenter3-1 .boxcenter3-11 img{
+    width: 100%;
+    height: 100%;
+}
+.boxmain2 .boxcenter3-4 .boxcenter3-1 .boxcenter3-11:hover img{
+    width: 100%;
+    height: 100%;
+    transform: scale(0.98);
+    transition: 1s;
+}
+.boxmain2 .boxcenter3-4 .boxcenter3-2 .boxcenter3-21{
+    width: 100%;
+    height: 50%;
+    /* border: 5px solid rgb(135, 222, 139); */
+    display: flex;
+    justify-content: space-between;
+}
+.boxmain2 .boxcenter3-4 .boxcenter3-2 .boxcenter3-21 .boxcenter3-211{
+    width: 24%;
+    height: 100%;
+    /* border: 5px solid rgb(243, 12, 12); */
+}
+.boxmain2 .boxcenter3-4 .boxcenter3-2 .boxcenter3-21 .boxcenter3-211 img{
+    width: 100%;
+    height: 70%;
+}
+.boxmain2 .boxcenter3-4 .boxcenter3-2 .boxcenter3-21 .boxcenter3-211:hover img{
+    width: 100%;
+    height: 70%;
+    transform: scale(0.98);
+    transition: 1s;
+}
+
+.box4{
+    width: 80%;
+    height: 30px;
+    border: 10px solid rgb(90, 199, 90);
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: -1%;
+    position: relative;
+    border-top: none;
+    border-right: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box4 .box4-1{
+    top: 0;
+    width: 7%;
+    height: 100%;
+    background-color: rgb(90, 199, 90);
+    position: absolute;
+}
+.box4 .box4-2{
+    width: 5%;
+    height: 100%;
+    /* border-top: 20px solid brown; */
+    /* border-left: 20px solid green ; */
+    border-bottom: 30px solid rgb(90, 199, 90) ;
+    border-right: 30px solid transparent;
+    left: 5%;
+    top: 0%;
+    position: absolute;
+}
+.box4 .box4-1 p{
+    font-size: 15px;
+    font-family: "koulen";
+    position: absolute;
+    top: 5px;
+    margin: auto;
+    margin-left: 20px;
+    color: white;
+}
+.box4 .box4-2 i{
+    color:white;
+    position: absolute;   
+    top: 60%;
+    right: 10%;
+    margin-top: 10px;
+}
+.boxmain3{
+    width: 80%;
+    height: 500px;
+    /* border: 5px solid black; */
+    box-shadow: 1px 1px 5px gray;
+    margin: auto ;
+    margin-top: 1%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+.boxmain3 .boxcenter4-4{
+    width: 100%;
+    height: 100%;
+    /* border: 4px solid rgb(214, 211, 0); */
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+.boxmain3 .boxcenter4-4 .boxcenter4-1{
+    width:31% ;
+    height: 100%;
+    /* border: 5px solid rgb(108, 175, 20); */
+}
+.boxmain3 .boxcenter4-4 .boxcenter4-2{
+    width:68% ;
+    height: 100%;
+    /* border: 5px solid rgb(141, 27, 27); */
+}
+.boxmain3 .boxcenter4-4 .boxcenter4-1 .boxcenter4-11{
+    width: 100%;
+    height: 80%;
+    /* border: 5px solid burlywood; */
+}
+.boxmain3 .boxcenter4-4 .boxcenter4-1 .boxcenter4-12{
+    width: 100%;
+    height: 20%;
+   background-color: rgb(135, 222, 139);
+}
+.boxmain3 .boxcenter4-4 .boxcenter4-1 .boxcenter4-12 p{
+    color: white;
+    font-family: koulen;
+    font-size: 20px;
+    padding: 10px;
+}
+.boxmain3 .boxcenter4-4 .boxcenter4-1 .boxcenter4-11 img{
+    width: 100%;
+    height: 100%;
+}
+.boxmain3 .boxcenter4-4 .boxcenter4-1 .boxcenter4-11:hover img{
+    width: 100%;
+    height: 100%;
+    transform: scale(0.98);
+    transition: 1s;
+}
+.boxmain3 .boxcenter4-4 .boxcenter4-2 .boxcenter4-21{
+    width: 100%;
+    height: 50%;
+    /* border: 5px solid rgb(135, 222, 139); */
+    display: flex;
+    justify-content: space-between;
+}
+.boxmain3 .boxcenter4-4 .boxcenter4-2 .boxcenter4-21 .boxcenter4-211{
+    width: 24%;
+    height: 100%;
+    /* border: 5px solid rgb(243, 12, 12); */
+}
+.boxmain3 .boxcenter4-4 .boxcenter4-2 .boxcenter4-21 .boxcenter4-211 img{
+    width: 100%;
+    height: 70%;
+}
+.boxmain3 .boxcenter4-4 .boxcenter4-2 .boxcenter4-21 .boxcenter4-211:hover img{
+    width: 100%;
+    height: 70%;
+    transform: scale(0.98);
+    transition: 1s;
+}
+
+.box5{
+    width: 80%;
+    height: 30px;
+    border: 10px solid orange;
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: -1%;
+    position: relative;
+    border-top: none;
+    border-right: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box5 .box5-1{
+    top: 0;
+    width: 10%;
+    height: 100%;
+    background-color: orange;
+    position: absolute;
+}
+.box5 .box5-2{
+    width: 5%;
+    height: 100%;
+    /* border-top: 20px solid brown; */
+    /* border-left: 20px solid green ; */
+    border-bottom: 30px solid orange;
+    border-right: 30px solid transparent;
+    left: 8%;
+    top: 0%;
+    position: absolute;
+}
+.box5 .box5-1 p{
+    font-size: 15px;
+    font-family: "koulen";
+    position: absolute;
+    top: 5px;
+    margin: auto;
+    margin-left: 20px;
+    color: white;
+}
+.box5 .box5-2 i{
+    color:white;
+    position: absolute;   
+    top: 60%;
+    right: 10%;
+    margin-top: 10px;
+}
+.boxmain4{
+    width: 80%;
+    height: 500px;
+    /* border: 5px solid black; */
+    box-shadow: 1px 1px 5px gray;
+    margin: auto ;
+    margin-top: 1%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+.boxmain4 .boxcenter5-4{
+    width: 100%;
+    height: 100%;
+    /* border: 4px solid rgb(214, 211, 0); */
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+.boxmain4 .boxcenter5-4 .boxcenter5-1{
+    width:31% ;
+    height: 100%;
+    /* border: 5px solid rgb(108, 175, 20); */
+}
+.boxmain4 .boxcenter5-4 .boxcenter5-2{
+    width:68% ;
+    height: 100%;
+    /* border: 5px solid rgb(141, 27, 27); */
+}
+.boxmain4 .boxcenter5-4 .boxcenter5-1 .boxcenter5-11{
+    width: 100%;
+    height: 80%;
+    /* border: 5px solid burlywood; */
+}
+.boxmain4 .boxcenter5-4 .boxcenter5-1 .boxcenter5-12{
+    width: 100%;
+    height: 20%;
+   background-color: orange;
+}
+.boxmain4 .boxcenter5-4 .boxcenter5-1 .boxcenter5-12 p{
+    color: white;
+    font-family: koulen;
+    font-size: 20px;
+    padding: 10px;
+}
+.boxmain4 .boxcenter5-4 .boxcenter5-1 .boxcenter5-11 img{
+    width: 100%;
+    height: 100%;
+}
+.boxmain4 .boxcenter5-4 .boxcenter5-1 .boxcenter5-11:hover img{
+    width: 100%;
+    height: 100%;
+    transform: scale(0.98);
+    transition: 1s;
+}
+.boxmain4 .boxcenter5-4 .boxcenter5-2 .boxcenter5-21{
+    width: 100%;
+    height: 50%;
+    /* border: 5px solid rgb(135, 222, 139); */
+    display: flex;
+    justify-content: space-between;
+}
+.boxmain4 .boxcenter5-4 .boxcenter5-2 .boxcenter5-21 .boxcenter5-211{
+    width: 24%;
+    height: 100%;
+    /* border: 5px solid rgb(243, 12, 12); */
+}
+.boxmain4 .boxcenter5-4 .boxcenter5-2 .boxcenter5-21 .boxcenter5-211 img{
+    width: 100%;
+    height: 70%;
+}
+.boxmain4 .boxcenter5-4 .boxcenter5-2 .boxcenter5-21 .boxcenter5-211:hover img{
+    width: 100%;
+    height: 70%;
+    transform: scale(0.98);
+    transition: 1s;
+}
+
+.box6{
+    width: 80%;
+    height: 30px;
+    border: 10px solid #4390F8;
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: -1%;
+    position: relative;
+    border-top: none;
+    border-right: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box6 .box6-1{
+    top: 0;
+    width: 7%;
+    height: 100%;
+    background-color: #4390F8;
+    position: absolute;
+}
+.box6 .box6-2{
+    width: 5%;
+    height: 100%;
+    /* border-top: 20px solid brown; */
+    /* border-left: 20px solid green ; */
+    border-bottom: 30px solid #4390F8 ;
+    border-right: 30px solid transparent;
+    left: 5%;
+    top: 0%;
+    position: absolute;
+}
+.box6 .box6-1 p{
+    font-size: 15px;
+    font-family: "koulen";
+    position: absolute;
+    top: 5px;
+    margin: auto;
+    margin-left: 20px;
+    color: white;
+}
+.box6 .box6-2 i{
+    color:white;
+    position: absolute;   
+    top: 60%;
+    right: 10%;
+    margin-top: 10px;
+}
+.boxmain5{
+    width: 80%;
+    height: 500px;
+    /* border: 5px solid black; */
+    box-shadow: 1px 1px 5px gray;
+    margin: auto ;
+    margin-top: 1%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+.boxmain5 .boxcenter6-4{
+    width: 100%;
+    height: 100%;
+    /* border: 4px solid rgb(214, 211, 0); */
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+.boxmain5 .boxcenter6-4 .boxcenter6-1{
+    width:31% ;
+    height: 100%;
+    /* border: 5px solid rgb(108, 175, 20); */
+}
+.boxmain5 .boxcenter6-4 .boxcenter6-2{
+    width:68% ;
+    height: 100%;
+    /* border: 5px solid rgb(141, 27, 27); */
+}
+.boxmain5 .boxcenter6-4 .boxcenter6-1 .boxcenter6-11{
+    width: 100%;
+    height: 80%;
+    /* border: 5px solid burlywood; */
+}
+.boxmain5 .boxcenter6-4 .boxcenter6-1 .boxcenter6-12{
+    width: 100%;
+    height: 20%;
+   background-color: #4390F8;
+}
+.boxmain5 .boxcenter6-4 .boxcenter6-1 .boxcenter6-12 p{
+    color: white;
+    font-family: koulen;
+    font-size: 20px;
+    padding: 10px;
+}
+.boxmain5 .boxcenter6-4 .boxcenter6-1 .boxcenter6-11 img{
+    width: 100%;
+    height: 100%;
+}
+.boxmain5 .boxcenter6-4 .boxcenter6-1 .boxcenter6-11:hover img{
+    width: 100%;
+    height: 100%;
+    transform: scale(0.98);
+    transition: 1s;
+}
+.boxmain5 .boxcenter6-4 .boxcenter6-2 .boxcenter6-21{
+    width: 100%;
+    height: 50%;
+    /* border: 5px solid rgb(135, 222, 139); */
+    display: flex;
+    justify-content: space-between;
+}
+.boxmain5 .boxcenter6-4 .boxcenter6-2 .boxcenter6-21 .boxcenter6-211{
+    width: 24%;
+    height: 100%;
+    /* border: 5px solid rgb(243, 12, 12); */
+}
+.boxmain5 .boxcenter6-4 .boxcenter6-2 .boxcenter6-21 .boxcenter6-211 img{
+    width: 100%;
+    height: 70%;
+}
+.boxmain5 .boxcenter6-4 .boxcenter6-2 .boxcenter6-21 .boxcenter6-211:hover img{
+    width: 100%;
+    height: 70%;
+    transform: scale(0.98);
+    transition: 1s;
+}
+
+.box7{
+    width: 80%;
+    height: 30px;
+    border: 10px solid grey;
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: -1%;
+    position: relative;
+    border-top: none;
+    border-right: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box7 .box7-1{
+    top: 0;
+    width: 7%;
+    height: 100%;
+    background-color: grey;
+    position: absolute;
+}
+.box7 .box7-2{
+    width: 5%;
+    height: 100%;
+    /* border-top: 20px solid brown; */
+    /* border-left: 20px solid green ; */
+    border-bottom: 30px solid grey ;
+    border-right: 30px solid transparent;
+    left: 5%;
+    top: 0%;
+    position: absolute;
+}
+.box7 .box7-1 p{
+    font-size: 15px;
+    font-family: "koulen";
+    position: absolute;
+    top: 5px;
+    margin: auto;
+    margin-left: 20px;
+    color: white;
+}
+.box7 .box7-2 i{
+    color:white;
+    position: absolute;   
+    top: 60%;
+    right: 10%;
+    margin-top: 10px;
+}
+.boxmain6{
+    width: 80%;
+    height: 500px;
+    /* border: 5px solid black; */
+    box-shadow: 1px 1px 5px gray;
+    margin: auto ;
+    margin-top: 1%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+.boxmain6 .boxcenter7-4{
+    width: 100%;
+    height: 100%;
+    /* border: 4px solid rgb(214, 211, 0); */
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+.boxmain6 .boxcenter7-4 .boxcenter7-1{
+    width:31% ;
+    height: 100%;
+    /* border: 5px solid rgb(108, 175, 20); */
+}
+.boxmain6 .boxcenter7-4 .boxcenter7-2{
+    width:68% ;
+    height: 100%;
+    /* border: 5px solid rgb(141, 27, 27); */
+}
+.boxmain6 .boxcenter7-4 .boxcenter7-1 .boxcenter7-11{
+    width: 100%;
+    height: 80%;
+    /* border: 5px solid burlywood; */
+}
+.boxmain6 .boxcenter7-4 .boxcenter7-1 .boxcenter7-12{
+    width: 100%;
+    height: 20%;
+   background-color: grey;
+}
+.boxmain6 .boxcenter7-4 .boxcenter7-1 .boxcenter7-12 p{
+    color: white;
+    font-family: koulen;
+    font-size: 20px;
+    padding: 10px;
+}
+.boxmain6 .boxcenter7-4 .boxcenter7-1 .boxcenter7-11 img{
+    width: 100%;
+    height: 100%;
+}
+.boxmain6 .boxcenter7-4 .boxcenter7-1 .boxcenter7-11:hover img{
+    width: 100%;
+    height: 100%;
+    transform: scale(0.98);
+    transition: 1s;
+}
+.boxmain6 .boxcenter7-4 .boxcenter7-2 .boxcenter7-21{
+    width: 100%;
+    height: 50%;
+    /* border: 5px solid rgb(135, 222, 139); */
+    display: flex;
+    justify-content: space-between;
+}
+.boxmain6 .boxcenter7-4 .boxcenter7-2 .boxcenter7-21 .boxcenter7-211{
+    width: 24%;
+    height: 100%;
+    /* border: 5px solid rgb(243, 12, 12); */
+}
+.boxmain6 .boxcenter7-4 .boxcenter7-2 .boxcenter7-21 .boxcenter7-211 img{
+    width: 100%;
+    height: 70%;
+}
+.boxmain6 .boxcenter7-4 .boxcenter7-2 .boxcenter7-21 .boxcenter7-211:hover img{
+    width: 100%;
+    height: 70%;
+    transform: scale(0.98);
+    transition: 1s;
+}
+
+.finbox{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    
+}
+.finbox4{
+    width: 80%;
+    height: 100%;
+    /* border: 5px solid rgb(128, 230, 13);  */
+     margin: auto;
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 20px;
+     opacity: 0.7;
+}
+.finbox4 .finbox1{
+    width: 30%;
+    height: 100%;
+   /* border: 5px solid red; */
+   padding-left: 120px;
+   color: white;
+   
+}
+.finbox4 .finbox2 {
+    width: 30%;
+    height: 100%;
+   /* border: 5px solid red; */
+   color: white;
+   
+}
+.finbox4 .finbox3{
+    width: 30%;
+    height: 100%;
+   /* border: 5px solid red; */
+   color: white;
+   
+}
+.finbox4 .finbox1 h4{
+    font-family: koulen;
+    color: white;
+}
+.finbox4 .finbox2 h3{
+    font-size: 25px;
+    font-family: koulen;
+    color: white;
+   
+   
+}
+.finbox4 .finbox2 h4{
+    font-family: koulen;
+    color: white;
+
+}
+.finbox4 .finbox3 h3{
+     font-size: 25px;
+    font-family: koulen;
+    color: white;
+   
+}
+.finbox4 .finbox3 h4{
+    font-family: koulen;
+    color: white;
+}
+.finbox2 .finbox22 {
+    width: 100%;
+    height: 40%;
+    /* border: 5px solid blue ; */
+    display: flex;
+}
+.finbox2 .finbox22 .finimg{
+    width: 50%;
+    height: 50%;
+    /* border: 5px solid red; */
+
+}
+.finbox2 .finbox22 .finimg img{
+    width: 80%;
+    height: 100%;
+}
+.finbox4 .finbox3 i{
+    width: 5%;
+}
